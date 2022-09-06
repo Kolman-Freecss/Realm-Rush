@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
+    - target: {fileID: 1297064461343270903, guid: d98571fbf2fcb9f40a5953c2aa8a2795, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4956102858805560033, guid: d98571fbf2fcb9f40a5953c2aa8a2795, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -58,6 +62,10 @@ PrefabInstance:
     - target: {fileID: 4956102858805560038, guid: d98571fbf2fcb9f40a5953c2aa8a2795, type: 3}
       propertyPath: m_Name
       value: Tile_RoadCorner Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7052615552342394418, guid: d98571fbf2fcb9f40a5953c2aa8a2795, type: 3}
+      propertyPath: m_text
+      value: 0,0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98571fbf2fcb9f40a5953c2aa8a2795, type: 3}

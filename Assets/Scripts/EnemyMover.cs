@@ -21,7 +21,6 @@ public class EnemyMover : MonoBehaviour
             float travelPercent = 0f;
             transform.LookAt(endPosition);
 
-            Debug.Log("Waypoint -> " + waypoint.transform.position);
             Debug.Log("Enemy -> " + transform.position);
             while (travelPercent < 1f)
             {
