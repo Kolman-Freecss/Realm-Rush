@@ -131,15 +131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 186df15321443ef4b8a808be97405a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  speed: 1
+  path: []
+  speed: 0.5
 --- !u!65 &5463970374000639188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -165,7 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f158d99b4807f45acf76a282e1bfaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 5
+  maxHitPoints: 3
+  difficultyRamp: 2
 --- !u!114 &7199834761816152420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,3 +172,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a00e2a8f725384438b28e3623877cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
